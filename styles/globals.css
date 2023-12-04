@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+	scroll-padding-top: 4rem;
+}
+
+@media (max-width: 480px) {
+	html,
+	body {
+		scroll-padding-top: 0rem;
+	}
+}
+
+.custom-container {
+	max-width: min(96%, 1536px);
+	margin: auto;
+	padding: auto;
+}

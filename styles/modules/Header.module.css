@@ -1,0 +1,7 @@
+.navItem {
+	@apply md:text-lg cursor-pointer transition-colors ease-in-out duration-200 hover:text-red-500;
+}
+
+:global(.dark) .navItem {
+	@apply hover:text-red-900;
+}
