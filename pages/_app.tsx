@@ -8,7 +8,7 @@ function MyApp({ Component, pageProps }: AppProps) {
 		<>
 			<Head>
 				<meta name="viewport" content="initial-scale=1.0, width=device-width" />
-				<title>Akash Kumar Seth</title>
+				<title>Shaun Pelling</title>
 			</Head>
 			<Script src="/theme.js" strategy="beforeInteractive" />
 			<Component {...pageProps} />

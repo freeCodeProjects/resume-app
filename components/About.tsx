@@ -16,7 +16,7 @@ const About = () => {
 					<div className="flex gap-8 items-center flex-col lg:flex-row">
 						<img
 							className="border-secondary border-2 object-cover aspect-square  lg:aspect-auto rounded-full lg:rounded-2xl flex-1 w-64 h-auto"
-							src="https://ik.imagekit.io/medium/images/resume/bewakoof-com-official-_iKNFEIVthQ-unsplash%20(1)_8_JlYIXxD.jpg"
+							src="https://ik.imagekit.io/medium/images/resume/shaun_azPlLdaU5"
 							alt="Akash Kumar Seth"
 						></img>
 						<div className="flex flex-col gap-8">

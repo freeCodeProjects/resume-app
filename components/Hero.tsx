@@ -18,7 +18,7 @@ const Hero = ({ isHeaderVisible }: IProps) => {
 			<div className="flex lg:flex-1 flex-col items-center justify-center gap-6 lg:min-w-104">
 				<h1 className="text-6xl">Hy! I am</h1>
 				<h2 className="text-4xl whitespace-nowrap font-semibold bg-gradient-to-r from-violet-600 via-red-500 to-indigo-400 inline-block text-transparent bg-clip-text">
-					Akash Kumar Seth
+					Shaun Pelling
 				</h2>
 				<p className="max-w-sm text-center">{bio}</p>
 				<div className="flex gap-2">
