@@ -34,6 +34,7 @@ export default async function handler(
 						<head></head>
 						<body>
 							<p style="white-space: pre-wrap;">${body.message}</p>
+							<p><b>Sender:</b> ${body.email}</p>
 						</body>
 					</html>`
 				}
