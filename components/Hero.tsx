@@ -1,7 +1,12 @@
-import HeroLottieAnimation from './HeroLottieAnimation'
+import dynamic from 'next/dynamic'
+
 import { useContext } from 'react'
 import { ResumeData } from '../pages/index'
 import Image from 'next/image'
+
+const HeroLottieAnimation = dynamic(() => import('./HeroLottieAnimation'), {
+	ssr: false
+})
 
 type IProps = {
 	isHeaderVisible: boolean

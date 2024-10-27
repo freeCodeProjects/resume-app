@@ -1,7 +1,19 @@
-import ContactLottieAnimation from './ContactLottieAnimation'
+import dynamic from 'next/dynamic'
 import { FormEvent, useState } from 'react'
-import FormSubmittedLottieAnimation from './FormSubmittedLottieAnimation'
 import Alert from './Alert'
+
+const ContactLottieAnimation = dynamic(
+	() => import('./ContactLottieAnimation'),
+	{
+		ssr: false
+	}
+)
+const FormSubmittedLottieAnimation = dynamic(
+	() => import('./FormSubmittedLottieAnimation'),
+	{
+		ssr: false
+	}
+)
 
 const Contact = () => {
 	const [showModal, setShowModal] = useState(false)
