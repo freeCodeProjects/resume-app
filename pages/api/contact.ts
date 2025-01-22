@@ -24,8 +24,8 @@ export default async function handler(
 					},
 					to: [
 						{
-							email: 'andrew.white@freecodeproject.org',
-							name: 'Andrew White'
+							email: 'akash@freecodeproject.org',
+							name: 'Akash Kumar'
 						}
 					],
 					subject: body.subject,
