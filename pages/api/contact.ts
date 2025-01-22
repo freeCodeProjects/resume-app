@@ -24,7 +24,7 @@ export default async function handler(
 					},
 					to: [
 						{
-							email: 'akash@freecodeproject.org',
+							email: 'seth18765@gmail.com',
 							name: 'Akash Kumar'
 						}
 					],
